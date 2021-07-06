@@ -38,6 +38,7 @@ RDR7_TxCal_golden_Honda_1_0_drop_index = [2, 13, 18]
 column_names_Honda_1_0_golden = "Date,Time,Bat_Ctrl State,InitCanInterface,Sensor_Comm_Init,Init_Tx_Cal,PingDut,ReadGoldDACValError,1666,1667,1668,1669,exp1666,exp1667,exp1668,exp1669,MIS,FID,Make_Path,SetTemperatureCompensation,Temperature,SetCWMode,Select_TX_Antenna,WaitForTemp,Antenna1 GetTxPower,SetCWMode,Bat_Ctrl State"
 total_test_item_golden_RDR7_Honda_1_0 = 27
 
+
 # Honda 1.75
 RDR7_TxCal_golden_Honda_175_FID = "8888"
 RDR7_TxCal_golden_Honda_175_drop_index = [2]
@@ -46,17 +47,19 @@ total_test_item_golden_RDR7_Honda_175 = 41
 
 
 # Production
+RDR7_test_result_col_names = "Date,Time,Test Time,Nest,MIS,Pass/Fail,FailedTests"
+RDR7_total_test_result_item_num = 7
 # Honda 1.0
 RDR7_TxCal_prod_Honda_1_0_FID = "0000"
-RDR7_TxCal_prod_Honda_1_0_drop_index = [2, 15, 47]
-column_names_Honda_1_0_prod = "Date,Time,Bat_Ctrl State,InitCanInterface,Sensor_Comm_Init,Init_Tx_Cal,PingDut,MIS,Point 1571,Point 1572,Point 1573,Point 1574,Point 1575,Point 1576,Temperature,Make_Path,AnalogVoltMeas,GetSWVersion,SetTemperatureCompensation,SetSAtoDefault Status,SaveConfigPoints,Force_Radar_Mode,RCTA Occupied BW,Force_Radar_Mode,Select_TX_Antenna,SetCWMode,SetTemperatureCompensation,InitDAC_amp,InitDAC_sw,Power,Point 1481,Point 1666,Point 1667,Point 1668,Point 1669,SetTemperatureCompensation,Antenna1 GetTxPower,Antenna2 GetTxPower,Antenna1 GetCenterFrequency,Antenna2 GetCenterFrequency,Antenna1 GetCwLeakage,Antenna2 GetCwLeakage,SetCWMode,Temperature,Delta,Bat_Ctrl State"
-total_test_item_prod_RDR7_Honda_1_0 = 46
+RDR7_TxCal_prod_Honda_1_0_drop_index = [15, 48]
+column_names_Honda_1_0_prod = "Date,Time,MIS,Bat_Ctrl State,InitCanInterface,Sensor_Comm_Init,Init_Tx_Cal,PingDut,MIS,Point 1571,Point 1572,Point 1573,Point 1574,Point 1575,Point 1576,Temperature,Make_Path,AnalogVoltMeas,GetSWVersion,SetTemperatureCompensation,SetSAtoDefault Status,SaveConfigPoints,Force_Radar_Mode,RCTA Occupied BW,Force_Radar_Mode,Select_TX_Antenna,SetCWMode,SetTemperatureCompensation_1,InitDAC_amp,InitDAC_sw,Power,Point 1481,Point 1666,Point 1667,Point 1668,Point 1669,SetTemperatureCompensation_2,Antenna1 GetTxPower,Antenna2 GetTxPower,Antenna1 GetCenterFrequency,Antenna2 GetCenterFrequency,Antenna1 GetCwLeakage,Antenna2 GetCwLeakage,SetCWMode_1,Temperature_1,Delta,Bat_Ctrl State"
+total_test_item_prod_RDR7_Honda_1_0 = 47
 
 # Honda 1.75
 RDR7_TxCal_prod_Honda_175_FID = "0000"
-RDR7_TxCal_prod_Honda_175_drop_index = [2, 19, 68]
-column_names_Honda_175_prod = "Date,Time,Bat_Ctrl State,AnalogVoltMeas,InitCanInterface,Sensor_Comm_Init,Init_Tx_Cal,GetNbTestVersion,GetNbLibVersion,PingDut,SetSAtoDefault,MIS,Point 1571,Point 1572,Point 1573,Point 1574,Point 1575,Point 1576,Temperature,Make_Path,GetSWVersion,SetTemperatureCompensation,SaveConfigPoints,Force_Radar_Mode,SetCWMode,Select_TX_Antenna,Tx1 BSD,Tx1 RCTA,Tx2 BSD,Tx2 RCTA,Point 1481,Point 1482,Point 1666,Point 1667,Point 1668,Point 1669,Point 1792,Point 1883,Point 1884,Point 1885,Point 1886,Point 1887,Point 1888,FreqComp Offset0,FreqComp Offset1,FreqComp Average0,FreqComp Average1,FreqComp NumbZeroCrossing0,FreqComp NumbZeroCrossing1,FreqComp Result,ResetDSP,SetSAtoDefault,Force_Radar_Mode,RCTA Occupied BW,SetSAtoDefault,SetTemperatureCompensation,Force_Radar_Mode,SetCWMode,Antenna1 GetTxPower,Antenna2 GetTxPower,Antenna1 GetCenterFrequency,Antenna2 GetCenterFrequency,Antenna1 GetCwLeakage,Antenna2 GetCwLeakage,Temperature2,Temperature1,PrepareForPowerdown,Bat_Ctrl State"
-total_test_item_prod_RDR7_Honda_175 = 68
+RDR7_TxCal_prod_Honda_175_drop_index = [19, 68]
+column_names_Honda_175_prod = "Date,Time,MIS,Bat_Ctrl State,AnalogVoltMeas,InitCanInterface,Sensor_Comm_Init,Init_Tx_Cal,GetNbTestVersion,GetNbLibVersion,PingDut,SetSAtoDefault,MIS,Point 1571,Point 1572,Point 1573,Point 1574,Point 1575,Point 1576,Temperature,Make_Path,GetSWVersion,SetTemperatureCompensation,SaveConfigPoints,Force_Radar_Mode,SetCWMode,Select_TX_Antenna,Tx1 BSD,Tx1 RCTA,Tx2 BSD,Tx2 RCTA,Point 1481,Point 1482,Point 1666,Point 1667,Point 1668,Point 1669,Point 1792,Point 1883,Point 1884,Point 1885,Point 1886,Point 1887,Point 1888,FreqComp Offset0,FreqComp Offset1,FreqComp Average0,FreqComp Average1,FreqComp NumbZeroCrossing0,FreqComp NumbZeroCrossing1,FreqComp Result,ResetDSP,SetSAtoDefault,Force_Radar_Mode,RCTA Occupied BW,SetSAtoDefault,SetTemperatureCompensation,Force_Radar_Mode,SetCWMode,Antenna1 GetTxPower,Antenna2 GetTxPower,Antenna1 GetCenterFrequency,Antenna2 GetCenterFrequency,Antenna1 GetCwLeakage,Antenna2 GetCwLeakage,Temperature2,Temperature1,PrepareForPowerdown,Bat_Ctrl State"
+total_test_item_prod_RDR7_Honda_175 = 69
 
 
 
