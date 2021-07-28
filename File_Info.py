@@ -7,11 +7,13 @@
 RDR6_TxCal_golden_GM175_FID = "8888"
 column_names_GM175_golden = "TestDate,Time,Bat_Ctrl,Current,InitCanInterface,Sensor_Comm_Init,Get_Test_Instrument,Init_Tx_Cal,PingDut,Read Gold DAC Val,1666,1667,1668,1669,1685,1686,1687,1688,Org1666,Org1667,Org1668,Org1669,Org1685,Org1686,Org1687,Org1688,MIS, FID,Make_Path,SetTemperatureCompensation,SetCWMode,Select_TX_Antenna,Gold Temp,Temperature,Antenna1 GetTxPower,Point2309, Point2310, Point5046, Point5048,SetCWMode,Bat_Ctrl"
 total_test_item_golden_RDR6_GM175 = 41
+column_names_GM175_golden_SQL = ['Date_Time','TestDate','Test_Timestamp','Bat_Ctrl','Current_Value','InitCanInterface','Sensor_Comm_Init','Get_Test_Instrument','Init_Tx_Cal','PingDut','Read_Gold_DAC_Val','point_1666','point_1667','point_1668','point_1669','point_1685','point_1686','point_1687','point_1688','Org1666','Org1667','Org1668','Org1669','Org1685','Org1686','Org1687','Org1688','MIS','FID','Make_Path','SetTemperatureCompensation','SetCWMode','Select_TX_Antenna','Gold_Temp','Temperature','Antenna1_GetTxPower','Point2309','Point2310','Point5046','Point5048','SetCWMode_1','Bat_Ctrl_1','Nest']
 
 # Chrysler
 RDR6_TxCal_golden_Chrysler_FID = "0000"
 column_names_Chrysler_golden = "TestDate,Time,Temperature,Antenna1 GetTxPower"
 total_test_item_golden_RDR6_Chrysler = 4
+column_names_Chrysler_golden_SQL = ['Date_Time', 'TestDate', 'Test_Timestamp', 'Temperature', 'Antenna1_GetTxPower','Nest']
 
 # Production
 RDR6_test_result_col_names = "Date,Time,Test Time,Nest,MIS,Pass/Fail"
