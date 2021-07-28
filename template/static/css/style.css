@@ -1,0 +1,83 @@
+/* Global Styles */
+html, body {
+    background-image: url(banner.jpeg);
+  }
+  
+  .my-container {
+  
+    margin-left:12%; 
+    margin-right:12%
+  }
+    
+    #Data_Plot {
+      position: relative;
+      border-radius: 12px;
+      height: 600px; 
+      width: 100%;  
+    }
+    
+    h1 {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 600;
+      font-size: 60px;
+      color: rgb(177, 206, 231);
+      text-align: center;
+    }
+    
+    h2 {
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      font-weight: 100;
+      font-size: 30px;
+      text-align: center;
+    }
+    
+    h4 {
+      font-family: sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+      text-align: left;
+    }
+    
+    .page-header {
+      padding-bottom: 9px;
+      margin: 40px 0 20px;
+      border-bottom: 1px solid #8ca0cc;
+      color: rgb(177, 206, 231);
+    }
+    
+    .panel-primary > .panel-heading {
+      color: #ffffff;
+      background-color: #7485ad;
+      border-color: #7485ad;
+    }
+    
+    .dropdown-label {
+      margin-top: 2%;
+      font-size: 15px;
+      color: #292f3d;
+    }
+  
+  
+    .dropdown-options{
+      font-size: 12px;
+    }
+  
+  
+    .panel-body1 {
+      height: 100px;
+    }
+    
+    .panel-body2 {
+      height: 600px;
+    }
+  
+    #header {
+      background-image: url(banner.jpeg);
+      height: auto;
+      padding: 100px 100px
+  }
+  
+    
+    
+    
+    
