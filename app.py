@@ -29,15 +29,15 @@ def update_RDR6():
         value = Avg_test_time,
         mode = "gauge+number",
         title = {'text' : "Average Test Time"},
-        gauge = {'axis' : {'range' : [None, 500]},
+        gauge = {'axis' : {'range' : [None, 100]},
                 'steps' : [
                     {'range' : [0, 25], 'color' : 'lightgray'},
-                    {'range' : [250, 400], 'color' : 'gray'}],
+                    {'range' : [25, 40], 'color' : 'gray'}],
                 'threshold' : {'line' : {'color' : 'red', 'width' : 4}, 'thickness' : 0.75, 'value': 45}}
                 ))
     gaugeJSON = json.dumps(gauge_fig, cls=plotly.utils.PlotlyJSONEncoder)
 
-    return render_template('Data_Dashboard.html', gaugeJSON=gaugeJSON, test=Avg_test_time)
+    return gaugeJSON
                 
 
 if __name__ == "__main__":
